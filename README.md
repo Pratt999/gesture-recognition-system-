@@ -1,2 +1,2 @@
 # gesture-recognition-system-
-genesis project
+genesis project 
