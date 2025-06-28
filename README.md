@@ -28,3 +28,19 @@ gesture-recognition-system/
 │ ├── servo_library.h # Utility functions for servos
 │ └── wiring_diagrams/ # Circuit diagrams for servo setup
 ├── data/ # (Optional) Sample frames, recordings
+
+
+---
+
+## 🧠 Gesture Mapping
+
+| Gesture | Description         | Servo State (Example)         |
+|---------|---------------------|-------------------------------|
+| 0       | Fist                | All servos at 90°             |
+| 1       | Index finger        | Thumb & index open            |
+| 2       | Peace sign          | Thumb, index, middle open     |
+| 3       | Three fingers       | Thumb + 3 fingers open        |
+| 4       | Four fingers        | Only pinky closed             |
+| 5       | Open hand           | All fingers extended          |
+
+---
