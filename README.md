@@ -59,6 +59,7 @@ Install using:
 
 ```bash
 pip install -r requirements.txt
+```
 
 Libraries Used
 opencv-python
@@ -110,3 +111,4 @@ MIT License — use it freely, modify it safely.
 👨‍💻 Author
 Made with ❤️ by Surya Pratap
 GitHub: @Pratt999
+
