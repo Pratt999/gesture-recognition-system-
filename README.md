@@ -61,20 +61,21 @@ Install using:
 pip install -r requirements.txt
 ```
 
-#Libraries Used
+**###Libraries Used**  
 opencv-python
 mediapipe
 flask, flask-socketio
 pyserial
 
-#Hardware
+
+**###Hardware**  
 Webcam
 Arduino Uno/Nano
 10x SG90 Servo Motors
 External power supply (5V 2A+)
 Jumper wires, breadboard/perfboard
 
-🧪 How to Run
+**🧪 How to Run**
 1. Gesture Detection (Python)
 bash
 Copy
@@ -101,14 +102,14 @@ Connect the servos as per wiring_diagrams/.
 4. Real-Time Replication
 serial_handler.py sends recognized gestures over serial to Arduino.
 
-🤝 Contributing
+**🤝 Contributing**
 Pull requests, ideas, and improvements are welcome!
 Please open an issue for bug reports or feature requests.
 
-📜 License
+**📜 License**
 MIT License — use it freely, modify it safely.
 
-👨‍💻 Author
+**👨‍💻 Author**
 Made with ❤️ by Surya Pratap
 GitHub: @Pratt999
 
