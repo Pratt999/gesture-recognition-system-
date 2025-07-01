@@ -105,14 +105,14 @@ Connect the servos as per wiring_diagrams/.
 4. Real-Time Replication
 serial_handler.py sends recognized gestures over serial to Arduino.
 
-**🤝 Contributing**
-Pull requests, ideas, and improvements are welcome!
+**🤝 Contributing**  
+Pull requests, ideas, and improvements are welcome!  
 Please open an issue for bug reports or feature requests.
 
-**📜 License**
+**📜 License**  
 MIT License — use it freely, modify it safely.
 
-**👨‍💻 Author**
-Made with ❤️ by Surya Pratap
+**👨‍💻 Author**  
+Made with ❤️ by Surya Pratap  
 GitHub: @Pratt999
 
