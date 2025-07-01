@@ -62,26 +62,28 @@ pip install -r requirements.txt
 ```
 
 **###Libraries Used**  
-opencv-python
-mediapipe
-flask, flask-socketio
+opencv-python  
+mediapipe  
+flask, flask-socketio  
 pyserial
 
 
 **###Hardware**  
-Webcam
-Arduino Uno/Nano
-10x SG90 Servo Motors
+Webcam    
+Arduino Uno/Nano  
+10x SG90 Servo Motors  
 External power supply (5V 2A+)
 Jumper wires, breadboard/perfboard
 
-**🧪 How to Run**
+**🧪 How to Run**  
+
 1. Gesture Detection (Python)
 bash
 Copy
 Edit
 python src/gesture_detection.py
-2. Web Interface
+
+3. Web Interface
 Start the Flask server:
 
 bash
@@ -93,7 +95,8 @@ Then open:
 arduino
 Copy
 Edit
-http://localhost:5000/
+http://localhost:5000/  
+
 3. Arduino Servo Control
 Upload servo_controller.ino to Arduino using the Arduino IDE.
 
