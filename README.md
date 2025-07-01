@@ -44,3 +44,69 @@ gesture-recognition-system/
 | 5       | Open hand           | All fingers extended          |
 
 ---
+
+## 🛠️ Requirements
+
+### Software
+
+- Python 3.7+
+- Arduino IDE
+- Browser (Chrome/Firefox)
+
+### Python Dependencies
+
+Install using:
+
+```bash
+pip install -r requirements.txt
+
+Libraries Used
+opencv-python
+mediapipe
+flask, flask-socketio
+pyserial
+
+Hardware
+Webcam
+Arduino Uno/Nano
+10x SG90 Servo Motors
+External power supply (5V 2A+)
+Jumper wires, breadboard/perfboard
+
+🧪 How to Run
+1. Gesture Detection (Python)
+bash
+Copy
+Edit
+python src/gesture_detection.py
+2. Web Interface
+Start the Flask server:
+
+bash
+Copy
+Edit
+python src/communication.py
+Then open:
+
+arduino
+Copy
+Edit
+http://localhost:5000/
+3. Arduino Servo Control
+Upload servo_controller.ino to Arduino using the Arduino IDE.
+
+Connect the servos as per wiring_diagrams/.
+
+4. Real-Time Replication
+serial_handler.py sends recognized gestures over serial to Arduino.
+
+🤝 Contributing
+Pull requests, ideas, and improvements are welcome!
+Please open an issue for bug reports or feature requests.
+
+📜 License
+MIT License — use it freely, modify it safely.
+
+👨‍💻 Author
+Made with ❤️ by Surya Pratap
+GitHub: @Pratt999
