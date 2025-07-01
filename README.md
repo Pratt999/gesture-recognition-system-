@@ -61,13 +61,13 @@ Install using:
 pip install -r requirements.txt
 ```
 
-Libraries Used
+#Libraries Used
 opencv-python
 mediapipe
 flask, flask-socketio
 pyserial
 
-Hardware
+#Hardware
 Webcam
 Arduino Uno/Nano
 10x SG90 Servo Motors
